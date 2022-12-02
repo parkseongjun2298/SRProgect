@@ -1,0 +1,31 @@
+﻿  Transform.cpp
+  TimeMgr.cpp
+  TileMgr.cpp
+  SubjectMgr.cpp
+  Subject.cpp
+  Scene.cpp
+  Renderer.cpp
+  PipeLine.cpp
+  Observer.cpp
+  MathMgr.cpp
+  Management.cpp
+  Layer.cpp
+  KeyMgr.cpp
+  GameObject.cpp
+  Frame.cpp
+  FontMgr.cpp
+  Font.cpp
+  DeadObj.cpp
+  Component.cpp
+  CollisionRect.cpp
+c:\users\administrator\desktop\team_a\sr_framework_20200330_final\engine\utilities\codes\collisionrect.cpp(21): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\administrator\desktop\team_a\sr_framework_20200330_final\engine\utilities\codes\collisionrect.cpp(22): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\administrator\desktop\team_a\sr_framework_20200330_final\engine\utilities\codes\collisionrect.cpp(23): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\administrator\desktop\team_a\sr_framework_20200330_final\engine\utilities\codes\collisionrect.cpp(24): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Camera.cpp
+  코드를 생성하고 있습니다...
+     ../Bin/Utilities.lib 라이브러리 및 ../Bin/Utilities.exp 개체를 생성하고 있습니다.
+  Utilities.vcxproj -> C:\Users\Administrator\Desktop\TEAM_A\SR_FrameWork_20200330_Final\Engine\Utilities\Includes\../Bin/Utilities.dll
+  Utilities.vcxproj -> ../Bin/Utilities.pdb (Full PDB)

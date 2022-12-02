@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2E6B989-6AA1-4933-8952-C253478732BC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Reference/Headers/;./;../Codes/;../Headers/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Libraries/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Reference/Headers/;./;../Codes/;../Headers/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Libraries/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\AutoCar.h" />
+    <ClInclude Include="..\Codes\BumperCar.h" />
+    <ClInclude Include="..\Codes\BumperCarField.h" />
+    <ClInclude Include="..\Codes\BumperCarGame.h" />
+    <ClInclude Include="..\Codes\BumperCarMainField.h" />
+    <ClInclude Include="..\Codes\BumperCarUi.h" />
+    <ClInclude Include="..\Codes\BumperEnd.h" />
+    <ClInclude Include="..\Codes\BumperLife.h" />
+    <ClInclude Include="..\Codes\BumperStart.h" />
+    <ClInclude Include="..\Codes\CameraMgr.h" />
+    <ClInclude Include="..\Codes\CameraObserver.h" />
+    <ClInclude Include="..\Codes\ChurroMgr.h" />
+    <ClInclude Include="..\Codes\ChurroShop.h" />
+    <ClInclude Include="..\Codes\CollisionMgr.h" />
+    <ClInclude Include="..\Codes\CollMouse.h" />
+    <ClInclude Include="..\Codes\CollTerrain.h" />
+    <ClInclude Include="..\Codes\CottenCandyMgr.h" />
+    <ClInclude Include="..\Codes\CottenCandyShop.h" />
+    <ClInclude Include="..\Codes\CrossHair.h" />
+    <ClInclude Include="..\Codes\Customer.h" />
+    <ClInclude Include="..\Codes\CustomerGage.h" />
+    <ClInclude Include="..\Codes\CustomerUi.h" />
+    <ClInclude Include="..\Codes\DynamicCamera.h" />
+    <ClInclude Include="..\Codes\EffectCount.h" />
+    <ClInclude Include="..\Codes\EffectCountShot.h" />
+    <ClInclude Include="..\Codes\FerrisArm.h" />
+    <ClInclude Include="..\Codes\FerrisBody.h" />
+    <ClInclude Include="..\Codes\FerrisLeg.h" />
+    <ClInclude Include="..\Codes\FerrisSeat.h" />
+    <ClInclude Include="..\Codes\FerrisWheel.h" />
+    <ClInclude Include="..\Codes\Flower.h" />
+    <ClInclude Include="..\Codes\FlowerMgr.h" />
+    <ClInclude Include="..\Codes\FpsCamera.h" />
+    <ClInclude Include="..\Codes\Grass.h" />
+    <ClInclude Include="..\Codes\GyroDrop.h" />
+    <ClInclude Include="..\Codes\GyroDropBody.h" />
+    <ClInclude Include="..\Codes\GyroDropDevice.h" />
+    <ClInclude Include="..\Codes\GyroSwing.h" />
+    <ClInclude Include="..\Codes\GyroSwingBody.h" />
+    <ClInclude Include="..\Codes\GyroSwingDevice.h" />
+    <ClInclude Include="..\Codes\GyroSwingLeg.h" />
+    <ClInclude Include="..\Codes\GyroSwingSpin.h" />
+    <ClInclude Include="..\Codes\LimitTile.h" />
+    <ClInclude Include="..\Codes\LimitTileMgr.h" />
+    <ClInclude Include="..\Codes\LineMgr.h" />
+    <ClInclude Include="..\Codes\Logo.h" />
+    <ClInclude Include="..\Codes\MainApp.h" />
+    <ClInclude Include="..\Codes\Mole.h" />
+    <ClInclude Include="..\Codes\MoleCatch.h" />
+    <ClInclude Include="..\Codes\MoleCatchGame.h" />
+    <ClInclude Include="..\Codes\MoleMousePos.h" />
+    <ClInclude Include="..\Codes\Monster.h" />
+    <ClInclude Include="..\Codes\MyCar.h" />
+    <ClInclude Include="..\Codes\Player.h" />
+    <ClInclude Include="..\Codes\Queue.h" />
+    <ClInclude Include="..\Codes\Rail.h" />
+    <ClInclude Include="..\Codes\RedFlower.h" />
+    <ClInclude Include="..\Codes\RedFlowerMgr.h" />
+    <ClInclude Include="..\Codes\RollerCoaster.h" />
+    <ClInclude Include="..\Codes\SceneSelector.h" />
+    <ClInclude Include="..\Codes\Seat.h" />
+    <ClInclude Include="..\Codes\ShootingBullet.h" />
+    <ClInclude Include="..\Codes\ShootingCount.h" />
+    <ClInclude Include="..\Codes\ShootingEffect.h" />
+    <ClInclude Include="..\Codes\ShootingGame.h" />
+    <ClInclude Include="..\Codes\ShootingGun.h" />
+    <ClInclude Include="..\Codes\ShootingMgr.h" />
+    <ClInclude Include="..\Codes\ShootingMonster.h" />
+    <ClInclude Include="..\Codes\ShootingOver.h" />
+    <ClInclude Include="..\Codes\ShootingPlayer.h" />
+    <ClInclude Include="..\Codes\ShootingSkyBox.h" />
+    <ClInclude Include="..\Codes\ShootingStart.h" />
+    <ClInclude Include="..\Codes\ShootingTime.h" />
+    <ClInclude Include="..\Codes\Shop.h" />
+    <ClInclude Include="..\Codes\ShopMgr.h" />
+    <ClInclude Include="..\Codes\SkyBox.h" />
+    <ClInclude Include="..\Codes\SoundMgr.h" />
+    <ClInclude Include="..\Codes\SpinHorse.h" />
+    <ClInclude Include="..\Codes\SpinHorseHorse.h" />
+    <ClInclude Include="..\Codes\SpinHorsePillar.h" />
+    <ClInclude Include="..\Codes\SpinHorsePlane.h" />
+    <ClInclude Include="..\Codes\SpinTeaCup.h" />
+    <ClInclude Include="..\Codes\Stage.h" />
+    <ClInclude Include="..\Codes\StaticCamera.h" />
+    <ClInclude Include="..\Codes\SubStageExample.h" />
+    <ClInclude Include="..\Codes\SuperCar.h" />
+    <ClInclude Include="..\Codes\TeaCup.h" />
+    <ClInclude Include="..\Codes\TeaCupPlane.h" />
+    <ClInclude Include="..\Codes\Terrain.h" />
+    <ClInclude Include="..\Codes\Tile.h" />
+    <ClInclude Include="..\Codes\Train.h" />
+    <ClInclude Include="..\Codes\UiBase.h" />
+    <ClInclude Include="..\Codes\UiGroup.h" />
+    <ClInclude Include="..\Codes\UiMgr.h" />
+    <ClInclude Include="..\Codes\UiMoleCount.h" />
+    <ClInclude Include="..\Codes\UiMoleEnd.h" />
+    <ClInclude Include="..\Codes\UiMoleMouse.h" />
+    <ClInclude Include="..\Codes\UiMoleStart.h" />
+    <ClInclude Include="..\Codes\UiMoleTime.h" />
+    <ClInclude Include="..\Codes\UiNpc.h" />
+    <ClInclude Include="..\Codes\UiPlate.h" />
+    <ClInclude Include="..\Codes\UiStateBar.h" />
+    <ClInclude Include="..\Codes\UiTexture.h" />
+    <ClInclude Include="..\Codes\Viking.h" />
+    <ClInclude Include="..\Codes\VikingLeg.h" />
+    <ClInclude Include="..\Codes\VikingShip.h" />
+    <ClInclude Include="..\Codes\YellowFlower.h" />
+    <ClInclude Include="..\Codes\YellowFlowerMgr.h" />
+    <ClInclude Include="..\Headers\Define.h" />
+    <ClInclude Include="..\Headers\Enum.h" />
+    <ClInclude Include="..\Headers\Extern.h" />
+    <ClInclude Include="..\Headers\Function.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="EventMgr.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\AutoCar.cpp" />
+    <ClCompile Include="..\Codes\BumperCar.cpp" />
+    <ClCompile Include="..\Codes\BumperCarField.cpp" />
+    <ClCompile Include="..\Codes\BumperCarGame.cpp" />
+    <ClCompile Include="..\Codes\BumperCarMainField.cpp" />
+    <ClCompile Include="..\Codes\BumperCarUi.cpp" />
+    <ClCompile Include="..\Codes\BumperEnd.cpp" />
+    <ClCompile Include="..\Codes\BumperLife.cpp" />
+    <ClCompile Include="..\Codes\BumperStart.cpp" />
+    <ClCompile Include="..\Codes\CameraMgr.cpp" />
+    <ClCompile Include="..\Codes\CameraObserver.cpp" />
+    <ClCompile Include="..\Codes\ChurroMgr.cpp" />
+    <ClCompile Include="..\Codes\ChurroShop.cpp" />
+    <ClCompile Include="..\Codes\CollisionMgr.cpp" />
+    <ClCompile Include="..\Codes\CollMouse.cpp" />
+    <ClCompile Include="..\Codes\CollTerrain.cpp" />
+    <ClCompile Include="..\Codes\CottenCandyMgr.cpp" />
+    <ClCompile Include="..\Codes\CottenCandyShop.cpp" />
+    <ClCompile Include="..\Codes\CrossHair.cpp" />
+    <ClCompile Include="..\Codes\Customer.cpp" />
+    <ClCompile Include="..\Codes\CustomerGage.cpp" />
+    <ClCompile Include="..\Codes\CustomerUi.cpp" />
+    <ClCompile Include="..\Codes\DynamicCamera.cpp" />
+    <ClCompile Include="..\Codes\EffectCount.cpp" />
+    <ClCompile Include="..\Codes\EffectCountShot.cpp" />
+    <ClCompile Include="..\Codes\FerrisArm.cpp" />
+    <ClCompile Include="..\Codes\FerrisBody.cpp" />
+    <ClCompile Include="..\Codes\FerrisLeg.cpp" />
+    <ClCompile Include="..\Codes\FerrisSeat.cpp" />
+    <ClCompile Include="..\Codes\FerrisWheel.cpp" />
+    <ClCompile Include="..\Codes\Flower.cpp" />
+    <ClCompile Include="..\Codes\FlowerMgr.cpp" />
+    <ClCompile Include="..\Codes\FpsCamera.cpp" />
+    <ClCompile Include="..\Codes\Grass.cpp" />
+    <ClCompile Include="..\Codes\GyroDrop.cpp" />
+    <ClCompile Include="..\Codes\GyroDropBody.cpp" />
+    <ClCompile Include="..\Codes\GyroDropDevice.cpp" />
+    <ClCompile Include="..\Codes\GyroSwing.cpp" />
+    <ClCompile Include="..\Codes\GyroSwingBody.cpp" />
+    <ClCompile Include="..\Codes\GyroSwingDevice.cpp" />
+    <ClCompile Include="..\Codes\GyroSwingLeg.cpp" />
+    <ClCompile Include="..\Codes\GyroSwingSpin.cpp" />
+    <ClCompile Include="..\Codes\LimitTile.cpp" />
+    <ClCompile Include="..\Codes\LimitTileMgr.cpp" />
+    <ClCompile Include="..\Codes\LineMgr.cpp" />
+    <ClCompile Include="..\Codes\Logo.cpp" />
+    <ClCompile Include="..\Codes\MainApp.cpp" />
+    <ClCompile Include="..\Codes\Mole.cpp" />
+    <ClCompile Include="..\Codes\MoleCatch.cpp" />
+    <ClCompile Include="..\Codes\MoleCatchGame.cpp" />
+    <ClCompile Include="..\Codes\MoleMousePos.cpp" />
+    <ClCompile Include="..\Codes\Monster.cpp" />
+    <ClCompile Include="..\Codes\MyCar.cpp" />
+    <ClCompile Include="..\Codes\Player.cpp" />
+    <ClCompile Include="..\Codes\Queue.cpp" />
+    <ClCompile Include="..\Codes\Rail.cpp" />
+    <ClCompile Include="..\Codes\RedFlower.cpp" />
+    <ClCompile Include="..\Codes\RedFlowerMgr.cpp" />
+    <ClCompile Include="..\Codes\RollerCoaster.cpp" />
+    <ClCompile Include="..\Codes\Seat.cpp" />
+    <ClCompile Include="..\Codes\ShootingBullet.cpp" />
+    <ClCompile Include="..\Codes\ShootingCount.cpp" />
+    <ClCompile Include="..\Codes\ShootingEffect.cpp" />
+    <ClCompile Include="..\Codes\ShootingGame.cpp" />
+    <ClCompile Include="..\Codes\ShootingGun.cpp" />
+    <ClCompile Include="..\Codes\ShootingMgr.cpp" />
+    <ClCompile Include="..\Codes\ShootingMonster.cpp" />
+    <ClCompile Include="..\Codes\ShootingOver.cpp" />
+    <ClCompile Include="..\Codes\ShootingPlayer.cpp" />
+    <ClCompile Include="..\Codes\ShootingSkyBox.cpp" />
+    <ClCompile Include="..\Codes\ShootingStart.cpp" />
+    <ClCompile Include="..\Codes\ShootingTime.cpp" />
+    <ClCompile Include="..\Codes\Shop.cpp" />
+    <ClCompile Include="..\Codes\ShopMgr.cpp" />
+    <ClCompile Include="..\Codes\SkyBox.cpp" />
+    <ClCompile Include="..\Codes\SoundMgr.cpp" />
+    <ClCompile Include="..\Codes\SpinHorse.cpp" />
+    <ClCompile Include="..\Codes\SpinHorseHorse.cpp" />
+    <ClCompile Include="..\Codes\SpinHorsePillar.cpp" />
+    <ClCompile Include="..\Codes\SpinHorsePlane.cpp" />
+    <ClCompile Include="..\Codes\SpinTeaCup.cpp" />
+    <ClCompile Include="..\Codes\Stage.cpp" />
+    <ClCompile Include="..\Codes\StaticCamera.cpp" />
+    <ClCompile Include="..\Codes\SubStageExample.cpp" />
+    <ClCompile Include="..\Codes\SuperCar.cpp" />
+    <ClCompile Include="..\Codes\TeaCup.cpp" />
+    <ClCompile Include="..\Codes\TeaCupPlane.cpp" />
+    <ClCompile Include="..\Codes\Terrain.cpp" />
+    <ClCompile Include="..\Codes\Tile.cpp" />
+    <ClCompile Include="..\Codes\Train.cpp" />
+    <ClCompile Include="..\Codes\UiBase.cpp" />
+    <ClCompile Include="..\Codes\UiGroup.cpp" />
+    <ClCompile Include="..\Codes\UiMgr.cpp" />
+    <ClCompile Include="..\Codes\UiMoleCount.cpp" />
+    <ClCompile Include="..\Codes\UiMoleEnd.cpp" />
+    <ClCompile Include="..\Codes\UiMoleMouse.cpp" />
+    <ClCompile Include="..\Codes\UiMoleStart.cpp" />
+    <ClCompile Include="..\Codes\UiMoleTime.cpp" />
+    <ClCompile Include="..\Codes\UiNpc.cpp" />
+    <ClCompile Include="..\Codes\UiPlate.cpp" />
+    <ClCompile Include="..\Codes\UiStateBar.cpp" />
+    <ClCompile Include="..\Codes\UiTexture.cpp" />
+    <ClCompile Include="..\Codes\Viking.cpp" />
+    <ClCompile Include="..\Codes\VikingLeg.cpp" />
+    <ClCompile Include="..\Codes\VikingShip.cpp" />
+    <ClCompile Include="..\Codes\YellowFlower.cpp" />
+    <ClCompile Include="..\Codes\YellowFlowerMgr.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="EventMgr.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

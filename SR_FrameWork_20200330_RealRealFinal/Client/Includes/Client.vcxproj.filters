@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{9d2f926e-1ac4-4847-8741-312f9e597702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{ed6fe41f-1c0c-4c41-8ce6-861a9f466783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{6e71b785-742a-4d63-9201-e0f205a85d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{f5f997c7-a165-4b59-b9e0-781037a5af87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Logo">
+      <UniqueIdentifier>{b14d1b71-a45f-4aa6-8d8f-2811a40d17fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Stage">
+      <UniqueIdentifier>{646927ce-8a50-4133-a091-35e62ea2e05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{570a2a70-a17f-422c-96ef-449a823a2511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Terrain">
+      <UniqueIdentifier>{5917edef-dc57-441d-88aa-56064f3b4223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player">
+      <UniqueIdentifier>{b6687086-2dac-485c-9fdf-54d4e98f432e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Camera">
+      <UniqueIdentifier>{ba0d3ff2-afb4-4e31-a2d1-dda4da901381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Camera\00.StaticCamera">
+      <UniqueIdentifier>{6b15eea4-ec0d-46b3-a8ba-a1d59da4981e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Camera\01.DynamicCamera">
+      <UniqueIdentifier>{250ef61e-1719-4e9d-a48e-9844f2857a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Monster">
+      <UniqueIdentifier>{e2c941fa-0a9a-4491-986d-f9926ad7320c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component">
+      <UniqueIdentifier>{46d5ccd4-b7cb-46b3-b310-decb9f497535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\00.Observer">
+      <UniqueIdentifier>{c8f7c1a7-71ed-4841-909f-eabea4e0f7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\01.CollisionTerrain">
+      <UniqueIdentifier>{d9aa4dde-812a-40ec-800d-c53ed214fc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\02.CollisionMouse">
+      <UniqueIdentifier>{c0bae41e-c284-4ab9-9d98-550e21d9989e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Grass">
+      <UniqueIdentifier>{0477f8ef-c17c-4f30-b5e2-04254dbacf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.SkyBox">
+      <UniqueIdentifier>{329543d1-ef30-4347-a6a9-d0f08dba807b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Terrain\00.Tile">
+      <UniqueIdentifier>{40cbb0b3-6a1d-4ae4-8def-23c18d34dfbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Camera\99.CameraMgr">
+      <UniqueIdentifier>{30bd18bd-ea99-4697-b35e-0d584409b5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides">
+      <UniqueIdentifier>{1ca591d9-7045-4ec3-98e1-9394d9a62170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\00.Viking">
+      <UniqueIdentifier>{12f527cc-4724-4be0-8adc-6e35a968084d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\00.Viking\00.VikingLeg">
+      <UniqueIdentifier>{924ea076-ae42-422e-a7f8-8181ff1387e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.UI">
+      <UniqueIdentifier>{6987e0dd-64d4-4d41-bcb3-0b01c83e11b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.UI\00.UiPlate">
+      <UniqueIdentifier>{fb2cd220-f5d2-4fe5-bc59-40d21f8c8cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.UI\00.UiPlate\00.UiBuildingBase">
+      <UniqueIdentifier>{073ff1fc-bba2-4b5e-9210-e4f899690170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.UI\00.UiPlate\01.UiGroup">
+      <UniqueIdentifier>{24e63ceb-927f-4f5f-a02b-67a7a7371507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.UI\99.UiMgr">
+      <UniqueIdentifier>{2082049b-3789-4595-af42-8125b8618d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers">
+      <UniqueIdentifier>{4262581a-87af-421c-891c-d09a500209e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\00.SoundMgr">
+      <UniqueIdentifier>{799cbba7-9a24-4926-b9d2-d7a5f41730e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.UI\00.UiPlate\02.UiTexture">
+      <UniqueIdentifier>{fa17aab5-9ba8-4f23-874d-b72f2e0d512a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\01.SpinHorse">
+      <UniqueIdentifier>{5333f5cd-405f-4e32-bc1a-04b4ec83beec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\01.SpinHorse\00.Horse">
+      <UniqueIdentifier>{86780ba2-f102-4ead-addb-dc63b8e2f7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\01.SpinHorse\01.Top&amp;Bottom">
+      <UniqueIdentifier>{87f9e656-7908-4af3-af53-eb5b6079b61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\01.SpinHorse\02.Pillar">
+      <UniqueIdentifier>{ea563c12-4a10-431e-bcf3-e7b90e1654d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\01.EventMgr">
+      <UniqueIdentifier>{a2408b8e-a0a1-48f3-84dd-ca2c39fdf4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\02.Ferris">
+      <UniqueIdentifier>{d03d6a18-4047-4912-9eb5-21e60c411847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\03.GyroDrop">
+      <UniqueIdentifier>{55fdeabb-1847-42ec-ade6-c46e3254d875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\04.RollerCoaster">
+      <UniqueIdentifier>{b3db2cbd-bf35-4bee-a3b3-2a514e4af6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\04.RollerCoaster\00.Train">
+      <UniqueIdentifier>{a1a0c4ab-7548-4a3b-89d4-da3bbd674bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\04.RollerCoaster\01.Rail">
+      <UniqueIdentifier>{9cef5c38-70b2-47da-8556-1cbee4d6e8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\05.SpinTeaCup">
+      <UniqueIdentifier>{8d7ab090-c41a-4295-8595-e7414670fb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\05.SpinTeaCup\00.TeaCup">
+      <UniqueIdentifier>{2a186738-59b9-431e-9836-2dea8680663d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\05.SpinTeaCup\01.Plane">
+      <UniqueIdentifier>{77bcca4d-2d93-4d53-919f-f948137994db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\00.Viking\01.Ship">
+      <UniqueIdentifier>{90a1dc42-727d-4f73-a09a-b081873c237e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\02.Ferris\00.Body">
+      <UniqueIdentifier>{d3d9891e-c80d-4e82-8d60-27a93e8a28fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\02.Ferris\01.Arm">
+      <UniqueIdentifier>{656644cb-ca19-40b1-be5b-ad543f03dbeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\02.Ferris\02.Leg">
+      <UniqueIdentifier>{898a814b-9fa5-452b-a8bd-da7754861074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\02.Ferris\03.Seat">
+      <UniqueIdentifier>{1f3325ef-048b-4ecd-ae16-e6d6055ef709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\03.GyroDrop\00.Body">
+      <UniqueIdentifier>{a843ba94-7e85-40a8-9a5e-4299ddcaa67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\03.GyroDrop\01.Device">
+      <UniqueIdentifier>{28df0d98-bf39-492e-a711-a14389a9f371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Camera\02.FpsCamera">
+      <UniqueIdentifier>{d402a379-c192-4080-ad39-24e881aaa732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\02.LineMgr">
+      <UniqueIdentifier>{67dfd821-a60b-46fe-8dfb-aa0707680434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.ShootingGame">
+      <UniqueIdentifier>{f4af6ca8-5e01-489d-b119-99021f198351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09.Customer">
+      <UniqueIdentifier>{1412002e-8138-4ebb-8adf-75eb5b1daa70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\03.MoleCatchGame">
+      <UniqueIdentifier>{019a13fc-32f7-44d2-9e77-f6cf74a2d5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\04.BumperCarGame">
+      <UniqueIdentifier>{96a93377-2878-4f21-9f7e-e18d4538c143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.UI\00.UiPlate\03.UiStateBar">
+      <UniqueIdentifier>{d1eb6a3b-f0b2-49a9-8492-3c85d3675986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame">
+      <UniqueIdentifier>{3bf67986-ef53-4f4e-a306-e343b1d31bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\00.MoleCatch">
+      <UniqueIdentifier>{b0f14e39-6c36-45d9-926a-310b98799975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\00.MoleCatch\00.Mole">
+      <UniqueIdentifier>{485645c2-5f38-4452-9aa0-78add58d2876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi">
+      <UniqueIdentifier>{06b787e8-2b6e-4bf0-a715-763abd249b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar">
+      <UniqueIdentifier>{1ef50fb5-8aa9-4b17-b2de-1346f06d7c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar\00.SuperCar">
+      <UniqueIdentifier>{a25ada42-cec0-4827-958c-be53c046704f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar\01.Field">
+      <UniqueIdentifier>{01023fb8-cdf2-4241-b5c3-68d2af6c3d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar\00.SuperCar\00.MyCar">
+      <UniqueIdentifier>{6320c903-465d-400a-91e3-42a90793b81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar\00.SuperCar\01.AutoCar">
+      <UniqueIdentifier>{ef5ec348-2e26-494e-9d5f-20112e704e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\00.MoleCount">
+      <UniqueIdentifier>{b9968c8e-70f0-4025-a278-755dabdc870a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\01.MoleTime">
+      <UniqueIdentifier>{0160250b-9830-4d67-ba52-86663d24e60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\99.SubStageExample">
+      <UniqueIdentifier>{167f8cb0-6ac4-4d1d-8cb9-b37a4a18bba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\03.Seat">
+      <UniqueIdentifier>{38ed6f6d-2ec4-4042-9944-f052c3677840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\04.Queue">
+      <UniqueIdentifier>{22d3d048-993b-423e-8ff9-a3db3f226610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject">
+      <UniqueIdentifier>{3ac60ff6-6eea-465e-8a85-711a673994a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\00.ShootingPlayer">
+      <UniqueIdentifier>{3a2614e5-e7ef-4c52-873a-9e55c70f31c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\01.ShootingMonster">
+      <UniqueIdentifier>{18d48618-faf9-4e40-9861-03a638cce645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\02.ShootingBullet">
+      <UniqueIdentifier>{8450a404-c519-4032-9391-766412bd5e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi">
+      <UniqueIdentifier>{7e85183a-fc3a-4434-bf17-3fa28447cdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\03.CollisionMgr">
+      <UniqueIdentifier>{9a47028d-4cad-41bd-8831-60f2e09aca30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\00.ShootingCount">
+      <UniqueIdentifier>{8f708c44-92da-48f3-851f-b596e6ef11a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\01.ShootingTime">
+      <UniqueIdentifier>{bdca81a6-b159-400d-9121-3a18c9dbe9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\06.GyroSwing">
+      <UniqueIdentifier>{7d05b431-df24-413f-86f2-5ab3b631af0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\06.GyroSwing\00.Body">
+      <UniqueIdentifier>{288d5f98-c0f9-4007-bef1-1f89e628879e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\06.GyroSwing\01.Leg">
+      <UniqueIdentifier>{f75e241b-df00-4c39-943b-0ae38492261f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\06.GyroSwing\02.Device">
+      <UniqueIdentifier>{d6d586d5-d399-4894-9397-a5f45691858f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Rides\06.GyroSwing\03.GyroSwingSpin">
+      <UniqueIdentifier>{bb1b9b99-b0c4-4434-a257-d1cabfa5954a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\02.Start">
+      <UniqueIdentifier>{c64dfb0f-a8c1-4b12-81c5-41b734d51ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\03.GameOver">
+      <UniqueIdentifier>{f7d7eb1a-b2e3-48ce-8f58-bc6645135e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\04.CrossHair">
+      <UniqueIdentifier>{a7fbb725-7857-4f24-9519-713a9490d6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi">
+      <UniqueIdentifier>{da0120cb-0523-4cfd-81a7-fa1f19ac6be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi\00.BumperLife">
+      <UniqueIdentifier>{1dfc87a9-15c8-48c6-85ec-b6e29c0538b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09.Customer\00.CustomerUi">
+      <UniqueIdentifier>{aecdd705-b3d8-4222-b20e-88206d07e2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09.Customer\00.CustomerUi\00.CustomerGage">
+      <UniqueIdentifier>{982c40aa-c91c-4641-b4d3-256989ee2d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\04.Mouse">
+      <UniqueIdentifier>{6f6712c4-ba43-40ec-8623-76122b21c660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\05.Effect">
+      <UniqueIdentifier>{dbaa98f3-51bd-412b-878d-d6e6af0d6235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\05.Effect\00.EffectCount">
+      <UniqueIdentifier>{0a872f1f-b913-4d0c-9713-981b57f3066b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\05.Gun">
+      <UniqueIdentifier>{cc196b99-7f94-4824-bd1e-2e09fb46db25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10.LimitTile">
+      <UniqueIdentifier>{fa5ff977-ca64-4689-907c-791ca3f36822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10.LimitTile\00.LimitTileMgr">
+      <UniqueIdentifier>{c8a83efb-8e9e-48ba-80df-51874a1e4444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\11.Shop">
+      <UniqueIdentifier>{82124a45-69c8-4833-9ead-981622953ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\11.Shop\00.Dress">
+      <UniqueIdentifier>{0c764961-2bf3-480d-b7fb-a5a23790fec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\11.Shop\01.Churro">
+      <UniqueIdentifier>{9f0eddbf-c5aa-47a9-b3fb-1735c7d5fc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\11.Shop\02.CottenCandy">
+      <UniqueIdentifier>{7c996de4-6fd1-464e-8a12-e83b10b18d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.Flower">
+      <UniqueIdentifier>{8c5fac99-bf66-4287-9b91-05456ee80e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.Flower\00.Normal">
+      <UniqueIdentifier>{9df98da9-d0dd-4519-8a7c-17b62fa674d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.Flower\01.Red">
+      <UniqueIdentifier>{90abe0b4-890a-47d6-b126-00007e7e81b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.Flower\02.Yellow">
+      <UniqueIdentifier>{1688f25a-91fb-45b7-ba61-d6e6577f20ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\06.SkyBox">
+      <UniqueIdentifier>{941ff8f7-34ce-4a02-a18d-42b9113d337e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\00.MoleCatch\02.MoleMouse">
+      <UniqueIdentifier>{a6faa3f7-8686-4b0c-b7e5-b7afdcb441ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\00.MoleCatch\02.MoleMouse\00.MousePos">
+      <UniqueIdentifier>{ed8c8ff5-5a92-4cad-a57a-0b5fac06ee1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar\01.Field\00.MainField">
+      <UniqueIdentifier>{a2580fdb-3cb4-43a0-afb4-5b478569d484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\07.Effect">
+      <UniqueIdentifier>{233c50bc-91ad-4cba-8c52-bd0e4632252f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\05.Effect\01.EffectCountShot">
+      <UniqueIdentifier>{2080f889-1605-4422-b363-410f4d7b886d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\02.MoleStart">
+      <UniqueIdentifier>{f4c3b61e-12c9-45f1-ae27-446e4089d908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\03.MoleEnd">
+      <UniqueIdentifier>{6d0706dc-4345-482f-ad7b-72eb6badacd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi\01.BumperStart">
+      <UniqueIdentifier>{e2321606-c725-4152-8933-c0db6b7fc10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi\02.BumperEnd">
+      <UniqueIdentifier>{00c2f365-b0b7-4aa3-ac71-90ea1753b14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.UI\00.UiPlate\04.UiNpc">
+      <UniqueIdentifier>{5b7a7b0e-299c-46b4-b19d-9928802bdd5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Define.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Extern.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Logo.h">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Stage.h">
+      <Filter>01.Scene\01.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Enum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SceneSelector.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player.h">
+      <Filter>02.GameObject\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Terrain.h">
+      <Filter>02.GameObject\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StaticCamera.h">
+      <Filter>02.GameObject\00.Camera\00.StaticCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Monster.h">
+      <Filter>02.GameObject\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CameraObserver.h">
+      <Filter>03.Component\00.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CollTerrain.h">
+      <Filter>03.Component\01.CollisionTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CollMouse.h">
+      <Filter>03.Component\02.CollisionMouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Grass.h">
+      <Filter>02.GameObject\03.Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SkyBox.h">
+      <Filter>02.GameObject\04.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Tile.h">
+      <Filter>02.GameObject\00.Terrain\00.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DynamicCamera.h">
+      <Filter>02.GameObject\00.Camera\01.DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CameraMgr.h">
+      <Filter>02.GameObject\00.Camera\99.CameraMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Viking.h">
+      <Filter>02.GameObject\06.Rides\00.Viking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Function.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\VikingLeg.h">
+      <Filter>02.GameObject\06.Rides\00.Viking\00.VikingLeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiPlate.h">
+      <Filter>02.GameObject\07.UI\00.UiPlate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiMgr.h">
+      <Filter>02.GameObject\07.UI\99.UiMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiBase.h">
+      <Filter>02.GameObject\07.UI\00.UiPlate\00.UiBuildingBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiGroup.h">
+      <Filter>02.GameObject\07.UI\00.UiPlate\01.UiGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SoundMgr.h">
+      <Filter>97.Managers\00.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiTexture.h">
+      <Filter>02.GameObject\07.UI\00.UiPlate\02.UiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SpinHorse.h">
+      <Filter>02.GameObject\06.Rides\01.SpinHorse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SpinHorsePlane.h">
+      <Filter>02.GameObject\06.Rides\01.SpinHorse\01.Top&amp;Bottom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SpinHorsePillar.h">
+      <Filter>02.GameObject\06.Rides\01.SpinHorse\02.Pillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SpinHorseHorse.h">
+      <Filter>02.GameObject\06.Rides\01.SpinHorse\00.Horse</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMgr.h">
+      <Filter>97.Managers\01.EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FerrisWheel.h">
+      <Filter>02.GameObject\06.Rides\02.Ferris</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\GyroDrop.h">
+      <Filter>02.GameObject\06.Rides\03.GyroDrop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Train.h">
+      <Filter>02.GameObject\06.Rides\04.RollerCoaster\00.Train</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Rail.h">
+      <Filter>02.GameObject\06.Rides\04.RollerCoaster\01.Rail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\RollerCoaster.h">
+      <Filter>02.GameObject\06.Rides\04.RollerCoaster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SpinTeaCup.h">
+      <Filter>02.GameObject\06.Rides\05.SpinTeaCup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TeaCup.h">
+      <Filter>02.GameObject\06.Rides\05.SpinTeaCup\00.TeaCup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TeaCupPlane.h">
+      <Filter>02.GameObject\06.Rides\05.SpinTeaCup\01.Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\VikingShip.h">
+      <Filter>02.GameObject\06.Rides\00.Viking\01.Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FerrisSeat.h">
+      <Filter>02.GameObject\06.Rides\02.Ferris\03.Seat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FerrisLeg.h">
+      <Filter>02.GameObject\06.Rides\02.Ferris\02.Leg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FerrisArm.h">
+      <Filter>02.GameObject\06.Rides\02.Ferris\01.Arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FerrisBody.h">
+      <Filter>02.GameObject\06.Rides\02.Ferris\00.Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\GyroDropBody.h">
+      <Filter>02.GameObject\06.Rides\03.GyroDrop\00.Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\GyroDropDevice.h">
+      <Filter>02.GameObject\06.Rides\03.GyroDrop\01.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SubStageExample.h">
+      <Filter>01.Scene\99.SubStageExample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FpsCamera.h">
+      <Filter>02.GameObject\00.Camera\02.FpsCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\LineMgr.h">
+      <Filter>97.Managers\02.LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingGame.h">
+      <Filter>01.Scene\02.ShootingGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Customer.h">
+      <Filter>02.GameObject\09.Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiStateBar.h">
+      <Filter>02.GameObject\07.UI\00.UiPlate\03.UiStateBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BumperCar.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BumperCarGame.h">
+      <Filter>01.Scene\04.BumperCarGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MoleCatch.h">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Mole.h">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\00.Mole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MoleCatchGame.h">
+      <Filter>01.Scene\03.MoleCatchGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiMoleCount.h">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\00.MoleCount</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiMoleTime.h">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\01.MoleTime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Seat.h">
+      <Filter>03.Component\03.Seat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingPlayer.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\00.ShootingPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CollisionMgr.h">
+      <Filter>97.Managers\03.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingMgr.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingMonster.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\01.ShootingMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingBullet.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\02.ShootingBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingCount.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\00.ShootingCount</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingTime.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\01.ShootingTime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\GyroSwing.h">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\GyroSwingSpin.h">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing\03.GyroSwingSpin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\GyroSwingDevice.h">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing\02.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\GyroSwingLeg.h">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing\01.Leg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\GyroSwingBody.h">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing\00.Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\LimitTileMgr.h">
+      <Filter>02.GameObject\10.LimitTile\00.LimitTileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\LimitTile.h">
+      <Filter>02.GameObject\10.LimitTile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\AutoCar.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\00.SuperCar\01.AutoCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SuperCar.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\00.SuperCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MyCar.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\00.SuperCar\00.MyCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BumperCarField.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\01.Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Queue.h">
+      <Filter>03.Component\04.Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CrossHair.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\04.CrossHair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingOver.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\03.GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingStart.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\02.Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ChurroShop.h">
+      <Filter>02.GameObject\11.Shop\01.Churro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ChurroMgr.h">
+      <Filter>02.GameObject\11.Shop\01.Churro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CottenCandyMgr.h">
+      <Filter>02.GameObject\11.Shop\02.CottenCandy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CottenCandyShop.h">
+      <Filter>02.GameObject\11.Shop\02.CottenCandy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Shop.h">
+      <Filter>02.GameObject\11.Shop\00.Dress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShopMgr.h">
+      <Filter>02.GameObject\11.Shop\00.Dress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BumperLife.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi\00.BumperLife</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CustomerUi.h">
+      <Filter>02.GameObject\09.Customer\00.CustomerUi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CustomerGage.h">
+      <Filter>02.GameObject\09.Customer\00.CustomerUi\00.CustomerGage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\EffectCount.h">
+      <Filter>03.Component\05.Effect\00.EffectCount</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingGun.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\05.Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\YellowFlower.h">
+      <Filter>02.GameObject\12.Flower\02.Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\YellowFlowerMgr.h">
+      <Filter>02.GameObject\12.Flower\02.Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Flower.h">
+      <Filter>02.GameObject\12.Flower\00.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FlowerMgr.h">
+      <Filter>02.GameObject\12.Flower\00.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\RedFlower.h">
+      <Filter>02.GameObject\12.Flower\01.Red</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\RedFlowerMgr.h">
+      <Filter>02.GameObject\12.Flower\01.Red</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingSkyBox.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\06.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MoleMousePos.h">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\02.MoleMouse\00.MousePos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiMoleMouse.h">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\02.MoleMouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BumperCarMainField.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\01.Field\00.MainField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShootingEffect.h">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\07.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\EffectCountShot.h">
+      <Filter>03.Component\05.Effect\01.EffectCountShot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiMoleStart.h">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\02.MoleStart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiMoleEnd.h">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\03.MoleEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BumperCarUi.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BumperEnd.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi\02.BumperEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BumperStart.h">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi\01.BumperStart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UiNpc.h">
+      <Filter>02.GameObject\07.UI\00.UiPlate\04.UiNpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Logo.cpp">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stage.cpp">
+      <Filter>01.Scene\01.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>02.GameObject\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>02.GameObject\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StaticCamera.cpp">
+      <Filter>02.GameObject\00.Camera\00.StaticCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster.cpp">
+      <Filter>02.GameObject\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CameraObserver.cpp">
+      <Filter>03.Component\00.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CollTerrain.cpp">
+      <Filter>03.Component\01.CollisionTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CollMouse.cpp">
+      <Filter>03.Component\02.CollisionMouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Grass.cpp">
+      <Filter>02.GameObject\03.Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SkyBox.cpp">
+      <Filter>02.GameObject\04.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tile.cpp">
+      <Filter>02.GameObject\00.Terrain\00.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicCamera.cpp">
+      <Filter>02.GameObject\00.Camera\01.DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CameraMgr.cpp">
+      <Filter>02.GameObject\00.Camera\99.CameraMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Viking.cpp">
+      <Filter>02.GameObject\06.Rides\00.Viking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VikingLeg.cpp">
+      <Filter>02.GameObject\06.Rides\00.Viking\00.VikingLeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiPlate.cpp">
+      <Filter>02.GameObject\07.UI\00.UiPlate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiMgr.cpp">
+      <Filter>02.GameObject\07.UI\99.UiMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiBase.cpp">
+      <Filter>02.GameObject\07.UI\00.UiPlate\00.UiBuildingBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiGroup.cpp">
+      <Filter>02.GameObject\07.UI\00.UiPlate\01.UiGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SoundMgr.cpp">
+      <Filter>97.Managers\00.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiTexture.cpp">
+      <Filter>02.GameObject\07.UI\00.UiPlate\02.UiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SpinHorse.cpp">
+      <Filter>02.GameObject\06.Rides\01.SpinHorse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SpinHorsePlane.cpp">
+      <Filter>02.GameObject\06.Rides\01.SpinHorse\01.Top&amp;Bottom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SpinHorsePillar.cpp">
+      <Filter>02.GameObject\06.Rides\01.SpinHorse\02.Pillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SpinHorseHorse.cpp">
+      <Filter>02.GameObject\06.Rides\01.SpinHorse\00.Horse</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMgr.cpp">
+      <Filter>97.Managers\01.EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FerrisWheel.cpp">
+      <Filter>02.GameObject\06.Rides\02.Ferris</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GyroDrop.cpp">
+      <Filter>02.GameObject\06.Rides\03.GyroDrop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Train.cpp">
+      <Filter>02.GameObject\06.Rides\04.RollerCoaster\00.Train</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rail.cpp">
+      <Filter>02.GameObject\06.Rides\04.RollerCoaster\01.Rail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SpinTeaCup.cpp">
+      <Filter>02.GameObject\06.Rides\05.SpinTeaCup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TeaCup.cpp">
+      <Filter>02.GameObject\06.Rides\05.SpinTeaCup\00.TeaCup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TeaCupPlane.cpp">
+      <Filter>02.GameObject\06.Rides\05.SpinTeaCup\01.Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VikingShip.cpp">
+      <Filter>02.GameObject\06.Rides\00.Viking\01.Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FerrisSeat.cpp">
+      <Filter>02.GameObject\06.Rides\02.Ferris\03.Seat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FerrisLeg.cpp">
+      <Filter>02.GameObject\06.Rides\02.Ferris\02.Leg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FerrisArm.cpp">
+      <Filter>02.GameObject\06.Rides\02.Ferris\01.Arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FerrisBody.cpp">
+      <Filter>02.GameObject\06.Rides\02.Ferris\00.Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GyroDropBody.cpp">
+      <Filter>02.GameObject\06.Rides\03.GyroDrop\00.Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GyroDropDevice.cpp">
+      <Filter>02.GameObject\06.Rides\03.GyroDrop\01.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SubStageExample.cpp">
+      <Filter>01.Scene\99.SubStageExample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FpsCamera.cpp">
+      <Filter>02.GameObject\00.Camera\02.FpsCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LineMgr.cpp">
+      <Filter>97.Managers\02.LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingGame.cpp">
+      <Filter>01.Scene\02.ShootingGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Customer.cpp">
+      <Filter>02.GameObject\09.Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiStateBar.cpp">
+      <Filter>02.GameObject\07.UI\00.UiPlate\03.UiStateBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BumperCar.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BumperCarGame.cpp">
+      <Filter>01.Scene\04.BumperCarGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MoleCatch.cpp">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Mole.cpp">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\00.Mole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MoleCatchGame.cpp">
+      <Filter>01.Scene\03.MoleCatchGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiMoleCount.cpp">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\00.MoleCount</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiMoleTime.cpp">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\01.MoleTime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Seat.cpp">
+      <Filter>03.Component\03.Seat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingPlayer.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\00.ShootingPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CollisionMgr.cpp">
+      <Filter>97.Managers\03.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingMgr.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingMonster.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\01.ShootingMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingBullet.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\02.ShootingBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingCount.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\00.ShootingCount</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingTime.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\01.ShootingTime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GyroSwing.cpp">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GyroSwingSpin.cpp">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing\03.GyroSwingSpin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GyroSwingDevice.cpp">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing\02.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GyroSwingLeg.cpp">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing\01.Leg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GyroSwingBody.cpp">
+      <Filter>02.GameObject\06.Rides\06.GyroSwing\00.Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LimitTileMgr.cpp">
+      <Filter>02.GameObject\10.LimitTile\00.LimitTileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LimitTile.cpp">
+      <Filter>02.GameObject\10.LimitTile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\AutoCar.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\00.SuperCar\01.AutoCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SuperCar.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\00.SuperCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MyCar.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\00.SuperCar\00.MyCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BumperCarField.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\01.Field</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RollerCoaster.cpp">
+      <Filter>02.GameObject\06.Rides\04.RollerCoaster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Queue.cpp">
+      <Filter>03.Component\04.Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CrossHair.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\04.CrossHair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingOver.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\03.GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingStart.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\02.Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ChurroShop.cpp">
+      <Filter>02.GameObject\11.Shop\01.Churro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ChurroMgr.cpp">
+      <Filter>02.GameObject\11.Shop\01.Churro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CottenCandyMgr.cpp">
+      <Filter>02.GameObject\11.Shop\02.CottenCandy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CottenCandyShop.cpp">
+      <Filter>02.GameObject\11.Shop\02.CottenCandy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shop.cpp">
+      <Filter>02.GameObject\11.Shop\00.Dress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShopMgr.cpp">
+      <Filter>02.GameObject\11.Shop\00.Dress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BumperLife.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi\00.BumperLife</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CustomerUi.cpp">
+      <Filter>02.GameObject\09.Customer\00.CustomerUi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CustomerGage.cpp">
+      <Filter>02.GameObject\09.Customer\00.CustomerUi\00.CustomerGage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EffectCount.cpp">
+      <Filter>03.Component\05.Effect\00.EffectCount</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingGun.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\05.Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\YellowFlower.cpp">
+      <Filter>02.GameObject\12.Flower\02.Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\YellowFlowerMgr.cpp">
+      <Filter>02.GameObject\12.Flower\02.Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flower.cpp">
+      <Filter>02.GameObject\12.Flower\00.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FlowerMgr.cpp">
+      <Filter>02.GameObject\12.Flower\00.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RedFlower.cpp">
+      <Filter>02.GameObject\12.Flower\01.Red</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RedFlowerMgr.cpp">
+      <Filter>02.GameObject\12.Flower\01.Red</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingSkyBox.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\06.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MoleMousePos.cpp">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\02.MoleMouse\00.MousePos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiMoleMouse.cpp">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\02.MoleMouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BumperCarMainField.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\01.Field\00.MainField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShootingEffect.cpp">
+      <Filter>02.GameObject\08.MiniGame\01.ShootingObject\03.ShootingUi\07.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EffectCountShot.cpp">
+      <Filter>03.Component\05.Effect\01.EffectCountShot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiMoleStart.cpp">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\02.MoleStart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiMoleEnd.cpp">
+      <Filter>02.GameObject\08.MiniGame\00.MoleCatch\01.MoleUi\03.MoleEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BumperCarUi.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BumperEnd.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi\02.BumperEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BumperStart.cpp">
+      <Filter>02.GameObject\08.MiniGame\02.BumperCar\02.BumperUi\01.BumperStart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UiNpc.cpp">
+      <Filter>02.GameObject\07.UI\00.UiPlate\04.UiNpc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

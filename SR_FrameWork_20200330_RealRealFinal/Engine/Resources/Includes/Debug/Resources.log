@@ -1,0 +1,16 @@
+﻿  VIBuffer.cpp
+  TriCol.cpp
+  Texture.cpp
+  TerrainTex.cpp
+  TerrainCol.cpp
+  Resources.cpp
+  ResourceMgr.cpp
+  RcTexLying.cpp
+  RcTex.cpp
+  RcCol.cpp
+  CubeTex.cpp
+  CubeCol.cpp
+  코드를 생성하고 있습니다...
+     ../Bin/Resources.lib 라이브러리 및 ../Bin/Resources.exp 개체를 생성하고 있습니다.
+  Resources.vcxproj -> C:\Users\Administrator\Desktop\TEAM_A\SR_FrameWork_20200330_Final\Engine\Resources\Includes\../Bin/Resources.dll
+  Resources.vcxproj -> ../Bin/Resources.pdb (Full PDB)

@@ -1,0 +1,6 @@
+Seat 적용
+DeadObj 각 놀이기구 넣기
+	Tile.cpp에 예시를 보면 댐.
+	각 놀이기구에 AddComponent에 DeadObj를 추가하고
+	각 놀이기구의 Update에서 return ENGINE::CGameObject::Update();으로 바꾸기
+Queue 추가

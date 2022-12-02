@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Management">
+      <UniqueIdentifier>{445064c0-f84d-41d1-8b0e-c611d9db0fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Renderer">
+      <UniqueIdentifier>{67d45996-28b3-436d-9458-d9fe2684ec8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses">
+      <UniqueIdentifier>{fa1dd9cd-56a0-4396-b774-3cd9a7a9d44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\00.Scene">
+      <UniqueIdentifier>{53ab289c-ff22-490c-b64e-beec2d1e25ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Managers">
+      <UniqueIdentifier>{172f034b-0327-4fd5-b3b0-7a503ba6509e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Managers\00.KeyMgr">
+      <UniqueIdentifier>{5da5fbd9-4a7d-451f-9164-7b93a7e058bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Managers\01.TimeMgr">
+      <UniqueIdentifier>{19487b98-72d5-449e-a3a6-1a226511f34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\02.GameObject">
+      <UniqueIdentifier>{6704b866-459e-4056-af70-0f34bbbae48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\03.Component">
+      <UniqueIdentifier>{dcc60c76-8bed-45f7-bf5c-2aa98cb8e4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\01.Layer">
+      <UniqueIdentifier>{1db8bcc9-2a84-4dc9-98a3-7e854b42493d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\02.GameObject\00.Camera">
+      <UniqueIdentifier>{d93292b5-bcc5-45e0-a096-7b513839b106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\03.Component\00.Transform">
+      <UniqueIdentifier>{64ef54aa-fa2a-499f-a9db-7d672c814033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Managers\02.MathMgr">
+      <UniqueIdentifier>{8197e77e-4450-4e02-aac7-13c7ca030103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Managers\03.PipeLine">
+      <UniqueIdentifier>{9704a695-f7d1-4e49-9b2f-bc347804d297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\04.Subject">
+      <UniqueIdentifier>{5a9690e7-e984-4a08-a1c8-ff67bfb8ee51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\03.Component\01.Observer">
+      <UniqueIdentifier>{45539def-0264-4c97-badd-b7fd58af8547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Managers\04.SubjectMgr">
+      <UniqueIdentifier>{a9013dff-dc52-4ae6-90e4-7ad44d6bea40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\03.Component\02.DeadObj">
+      <UniqueIdentifier>{015de499-f42f-44bf-87aa-eb9591b9cb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Managers\99.FontMgr">
+      <UniqueIdentifier>{776df022-c0fa-45fb-98af-7a2c8515fa24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\03.Component\03.Frame">
+      <UniqueIdentifier>{67cb4074-e54a-4e8c-9ab2-41c14c18d957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.BaseClasses\03.Component\04.CollisionRect">
+      <UniqueIdentifier>{50b289bf-3140-4fec-8575-25868def4a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Managers\05.TileMgr">
+      <UniqueIdentifier>{a950fbf0-6f4e-4f8e-a908-fff9d80d7ee3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Scene.cpp">
+      <Filter>02.BaseClasses\00.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Management.cpp">
+      <Filter>00.Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Renderer.cpp">
+      <Filter>01.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\KeyMgr.cpp">
+      <Filter>99.Managers\00.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TimeMgr.cpp">
+      <Filter>99.Managers\01.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Component.cpp">
+      <Filter>02.BaseClasses\03.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject.cpp">
+      <Filter>02.BaseClasses\02.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Layer.cpp">
+      <Filter>02.BaseClasses\01.Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera.cpp">
+      <Filter>02.BaseClasses\02.GameObject\00.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Transform.cpp">
+      <Filter>02.BaseClasses\03.Component\00.Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PipeLine.cpp">
+      <Filter>99.Managers\03.PipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MathMgr.cpp">
+      <Filter>99.Managers\02.MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Observer.cpp">
+      <Filter>02.BaseClasses\03.Component\01.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Subject.cpp">
+      <Filter>02.BaseClasses\04.Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SubjectMgr.cpp">
+      <Filter>99.Managers\04.SubjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DeadObj.cpp">
+      <Filter>02.BaseClasses\03.Component\02.DeadObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FontMgr.cpp">
+      <Filter>99.Managers\99.FontMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Font.cpp">
+      <Filter>99.Managers\99.FontMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frame.cpp">
+      <Filter>02.BaseClasses\03.Component\03.Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CollisionRect.cpp">
+      <Filter>02.BaseClasses\03.Component\04.CollisionRect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TileMgr.cpp">
+      <Filter>99.Managers\05.TileMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\Scene.h">
+      <Filter>02.BaseClasses\00.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Management.h">
+      <Filter>00.Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Renderer.h">
+      <Filter>01.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\KeyMgr.h">
+      <Filter>99.Managers\00.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TimeMgr.h">
+      <Filter>99.Managers\01.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Component.h">
+      <Filter>02.BaseClasses\03.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\GameObject.h">
+      <Filter>02.BaseClasses\02.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Layer.h">
+      <Filter>02.BaseClasses\01.Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Camera.h">
+      <Filter>02.BaseClasses\02.GameObject\00.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Transform.h">
+      <Filter>02.BaseClasses\03.Component\00.Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\PipeLine.h">
+      <Filter>99.Managers\03.PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MathMgr.h">
+      <Filter>99.Managers\02.MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Observer.h">
+      <Filter>02.BaseClasses\03.Component\01.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Subject.h">
+      <Filter>02.BaseClasses\04.Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SubjectMgr.h">
+      <Filter>99.Managers\04.SubjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DeadObj.h">
+      <Filter>02.BaseClasses\03.Component\02.DeadObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Font.h">
+      <Filter>99.Managers\99.FontMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FontMgr.h">
+      <Filter>99.Managers\99.FontMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Frame.h">
+      <Filter>02.BaseClasses\03.Component\03.Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CollisionRect.h">
+      <Filter>02.BaseClasses\03.Component\04.CollisionRect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TileMgr.h">
+      <Filter>99.Managers\05.TileMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

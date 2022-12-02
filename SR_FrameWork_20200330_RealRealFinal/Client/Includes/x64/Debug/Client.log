@@ -1,0 +1,2 @@
+﻿  stdafx.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\client\includes\stdafx.h(23): fatal error C1083: 포함 파일을 열 수 없습니다. 'fmod.h': No such file or directory

@@ -1,0 +1,23 @@
+0320_2 
+
+변동사항
+
+[01] 00.GameObject -> 08.ShootingPlayer 를 08.MiniGame으로 변환후, 
+  그 하위폴더로 변경 01.ShootingPlayer
+
+[02] 08.MiniGame - MoleCatch, BumperCar(미완) 추가.
+
+[03] UiStateBar 이식. (F3으로 올리고 내리고 가능)
+
+[04] DynamicCamera Create()부분 매개변수 (vEye, vAt) 추가. 
+     원래위치를 디폴트매개변수화해서 기존에 설정한건 건들일 필요없음.
+
+[05] CollMouse에 PickMole() 함수 추가. (두더지잡기용) 
+     #include "Transform.h"도 추가.
+
+
+테스트를 완료하였으나, 해보고 오류가 날 시 연락해주세요 ^^7
+
+이식하지못한것
+UiNPC 
+-> 이식할경우 Release()할때 오류발생 (메모리 Leak현상)

@@ -1,0 +1,25 @@
+﻿  VIBuffer.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  TriCol.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  Texture.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  TerrainTex.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  TerrainCol.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  Resources.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  ResourceMgr.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resourcemgr.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  RcTexLying.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  RcTex.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  RcCol.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  CubeTex.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  CubeCol.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\resources\codes\resources.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  코드를 생성하고 있습니다...

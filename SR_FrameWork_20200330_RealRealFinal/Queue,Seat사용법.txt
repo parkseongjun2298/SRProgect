@@ -1,0 +1,45 @@
+1. 놀이기구가 종료되면, Seat를 클리어 해준다.
+	예시) CVikingShip::MoveViking()안의
+		dynamic_cast<CSeat*>(m_mapComponent[L"Seat"])->ClearCustomer(vPos);
+			이때 vPos는 무조건 땅이어야 하기 때문에, 각자 해보고 공중에 떠있다면 vPos.y를 0으로 초기화해라.
+			vPos는 손님이 나갈 위치를 의미함.
+
+2. Seat에다 Queue에 있는 손님을 끌어다 태운다.
+	예시) CViking::Update()
+		CQueue* pQueue = dynamic_cast<CQueue*>(m_mapComponent[L"Queue"]);
+		ENGINE::CGameObject* pCustomer = pQueue->PullCustomer();
+		if (nullptr != pCustomer)
+			m_VikingShip->PushSeat(i, dynamic_cast<CCustomer*>(pCustomer));
+
+		첫번째 줄
+			Queue를 맵컴포넌트에서 가져온다.
+		두번째 줄
+			손님을 Queue에서 가져온다.
+		세번째 줄
+			손님이 없다면 pCustomer에 nullptr이 들어가므로 확인해준다.
+		네번째 줄
+			손님이 있다면 PushSeat를 통해 시트에 앉혀준다.
+				이때 PushSeat의 첫번째 변수는 시트의 인덱스, 두번째는 손님의 포인터이다.
+
+		PushSeat경우, Queue는 부모(전체를 가지고있는)클래스(CViking)에 있고, Seat는 
+			자식(피 has-a)클래스(CVikingShip)에 있으므로  CVikingShip에 함수를 정의해준 것.
+
+		PushSeat할땐 무조건 pCustomer->RideSetting()을 불러줄 것.
+			RideSetting()은 시트에 앉히기 전에 초기화 해주는 함수
+
+
+
+각자 자이로 드롭, 찻잔 같은 경우는 손님을 끌어다 시트에 앉힐 때 아래처럼 하면 된다.
+for(int i = 0; i < 4; ++i)
+{
+	for(int j = 0; j < 5; ++j)
+	{
+		CQueue* pQueue = dynamic_cast<CQueue*>(m_mapComponent[L"Queue"]);
+		ENGINE::CGameObject* pCustomer = pQueue->PullCustomer();
+		if (nullptr != pCustomer)
+			m_VikingShip->PushSeat(i,j, dynamic_cast<CCustomer*>(pCustomer));
+	}
+}
+
+i = 몇 번째 디바이스인지
+j = Device내의 Seat에 어디 앉힐 건지

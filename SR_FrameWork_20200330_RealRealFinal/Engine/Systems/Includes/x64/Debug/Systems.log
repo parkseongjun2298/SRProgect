@@ -1,0 +1,2 @@
+﻿  DeviceMgr.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\systems\codes\devicemgr.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory

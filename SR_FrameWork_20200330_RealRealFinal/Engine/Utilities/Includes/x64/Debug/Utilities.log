@@ -1,0 +1,45 @@
+﻿  Transform.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\component.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  TimeMgr.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\timemgr.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  TileMgr.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\tilemgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  SubjectMgr.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\subjectmgr.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Subject.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\subject.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Scene.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\layer.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Renderer.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\renderer.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  PipeLine.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\pipeline.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Observer.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\component.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  MathMgr.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\mathmgr.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Management.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\timemgr.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Layer.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\layer.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  KeyMgr.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\keymgr.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  GameObject.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\gameobject.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Frame.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\component.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  FontMgr.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\fontmgr.h(18): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Font.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\font.h(19): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  DeadObj.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\component.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Component.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\component.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  CollisionRect.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\component.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Camera.cpp
+c:\users\kdg11\onedrive\바탕 화면\sr_framework_20200329_08\engine\utilities\codes\gameobject.h(5): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  코드를 생성하고 있습니다...
